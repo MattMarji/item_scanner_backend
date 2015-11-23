@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
         id = params[:product_id]
 
         if id == 1
-            render json: {product_name:"Special K"}, status: 200
+            render json: {product_name:"Frosted Flakes"}, status: 200
         elsif id == 2
             render json: {product_name:"Lucky Charms"}, status: 200
         elsif id == 3
