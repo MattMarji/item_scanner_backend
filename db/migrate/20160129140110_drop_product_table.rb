@@ -1,4 +1,5 @@
 class DropProductTable < ActiveRecord::Migration
+=begin
   def up
     drop_table :product
   end
@@ -6,4 +7,5 @@ class DropProductTable < ActiveRecord::Migration
   def down
     raise ActiveRecord::IrreversibleMigration
   end
+=end
 end
