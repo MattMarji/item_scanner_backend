@@ -1,4 +1,5 @@
 class CreateNutritionalInformations < ActiveRecord::Migration
+=begin
   def change
     create_table :nutritional_informations do |t|
       t.string :upc, null: false
@@ -8,4 +9,5 @@ class CreateNutritionalInformations < ActiveRecord::Migration
 
     add_index :nutritional_informations, :upc, unique: true
   end
+=end
 end

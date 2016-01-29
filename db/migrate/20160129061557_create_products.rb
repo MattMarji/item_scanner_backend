@@ -1,4 +1,5 @@
 class CreateProducts < ActiveRecord::Migration
+=begin
   def change
     create_table :products do |t|
       t.string :name
@@ -11,4 +12,5 @@ class CreateProducts < ActiveRecord::Migration
 
     add_index :products, :upc, unique: true
   end
+=end
 end
