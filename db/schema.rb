@@ -11,15 +11,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151122195602) do
+ActiveRecord::Schema.define(version: 20160129123304) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "nutritional_informations", force: :cascade do |t|
+    t.string   "upc",                             null: false
+    t.text     "nutrition",  default: "--- {}\n"
+    t.datetime "created_at",                      null: false
+    t.datetime "updated_at",                      null: false
+  end
+
+  add_index "nutritional_informations", ["upc"], name: "index_nutritional_informations_on_upc", unique: true, using: :btree
 
   create_table "products", force: :cascade do |t|
-    t.string   "product_name"
-    t.string   "product_size"
-    t.integer  "product_price"
-    t.string   "product_description"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
+    t.string   "name"
+    t.float    "price"
+    t.string   "upc",        null: false
+    t.integer  "quantity"
+    t.string   "type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
+
+  add_index "products", ["upc"], name: "index_products_on_upc", unique: true, using: :btree
 
 end

@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-    post '/product', to: 'application#product_information'
+  resources :products
+
+    post '/product', to: 'products#show'
 end
