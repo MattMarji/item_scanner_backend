@@ -101,7 +101,7 @@ Product.create(
 NutritionalInformation.create(
     :upc => "6563327957",
     :nutrition =>
-        {"Calories"=>110
+        {"Calories"=>"110",
          "Fat" => "2 grams",
          "Saturated Fat" => "0 grams",
          "Trans Fat" => "0 grams",
@@ -122,7 +122,7 @@ NutritionalInformation.create(
 NutritionalInformation.create(
     :upc => "5100012939",
     :nutrition =>
-        {"Calories"=>90
+        {"Calories"=>"90",
          "Fat" => "9 grams",
          "Saturated Fat" => "0 grams",
          "Trans Fat" => "0 grams",
@@ -143,7 +143,7 @@ NutritionalInformation.create(
 NutritionalInformation.create(
     :upc => "64900208386",
     :nutrition =>
-        {"Calories"=>"5"
+        {"Calories"=>"5",
          "Fat" => "0 grams",
          "Saturated Fat" => "0 grams",
          "Trans Fat" => "0 grams",
@@ -164,7 +164,7 @@ NutritionalInformation.create(
 NutritionalInformation.create(
     :upc => "35000765703",
     :nutrition =>
-        {"Calories"=>"0"
+        {"Calories"=>"0",
          "Fat" => "0 grams",
          "Saturated Fat" => "0 grams",
          "Trans Fat" => "0 grams",
@@ -185,7 +185,7 @@ NutritionalInformation.create(
 NutritionalInformation.create(
     :upc => "6563342514",
     :nutrition =>
-        {"Calories"=>"170"
+        {"Calories"=>"170",
          "Fat" => "8 grams",
          "Saturated Fat" => "2.5 grams",
          "Trans Fat" => "0 grams",
@@ -206,7 +206,7 @@ NutritionalInformation.create(
 NutritionalInformation.create(
     :upc => "6840001429",
     :nutrition =>
-        {"Calories"=>"80"
+        {"Calories"=>"80",
          "Fat" => "1 gram",
          "Saturated Fat" => "0 grams",
          "Trans Fat" => "0 grams",
