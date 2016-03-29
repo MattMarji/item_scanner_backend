@@ -41,21 +41,81 @@ Product.create(
 
 NutritionalInformation.create(
     :upc => "6563327957",
-    :nutrition => {"calories"=>10}
+    :nutrition =>
+        {"Calories"=>10
+         "Fat" => 0,
+         "Saturated Fat" => 0,
+         "Trans Fat" => 0,
+         "Cholesterol" => 0,
+         "Sodium" => 0,
+         "Carbohydrates" => 0,
+         "Fibre" => 0,
+         "Sugars" => 0,
+         "Protein" => 0,
+         "Vitamin A" => 0,
+         "Vitamin C" => 0,
+         "Calcium" => 0,
+         "Iron" => 0
+        }
 )
 
 NutritionalInformation.create(
     :upc => "6410044507",
-    :nutrition => {"calories"=>20}
+    :nutrition =>
+        {"Calories"=>10
+         "Fat" => 0,
+         "Saturated Fat" => 0,
+         "Trans Fat" => 0,
+         "Cholesterol" => 0,
+         "Sodium" => 0,
+         "Carbohydrates" => 0,
+         "Fibre" => 0,
+         "Sugars" => 0,
+         "Protein" => 0,
+         "Vitamin A" => 0,
+         "Vitamin C" => 0,
+         "Calcium" => 0,
+         "Iron" => 0
+        }
 )
 
 NutritionalInformation.create(
     :upc => "5100012939",
-    :nutrition => {"calories"=>30}
+    :nutrition =>
+        {"Calories"=>10
+         "Fat" => 0,
+         "Saturated Fat" => 0,
+         "Trans Fat" => 0,
+         "Cholesterol" => 0,
+         "Sodium" => 0,
+         "Carbohydrates" => 0,
+         "Fibre" => 0,
+         "Sugars" => 0,
+         "Protein" => 0,
+         "Vitamin A" => 0,
+         "Vitamin C" => 0,
+         "Calcium" => 0,
+         "Iron" => 0
+        }
 )
 
 NutritionalInformation.create(
     :upc => "64144043156",
-    :nutrition => {"calories"=>40}
+    :nutrition =>
+        {"Calories"=>10
+         "Fat" => 0,
+         "Saturated Fat" => 0,
+         "Trans Fat" => 0,
+         "Cholesterol" => 0,
+         "Sodium" => 0,
+         "Carbohydrates" => 0,
+         "Fibre" => 0,
+         "Sugars" => 0,
+         "Protein" => 0,
+         "Vitamin A" => 0,
+         "Vitamin C" => 0,
+         "Calcium" => 0,
+         "Iron" => 0
+        }
 )
 
